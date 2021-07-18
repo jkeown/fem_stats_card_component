@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <section class="card-image">
+        <img
+          srcset="
+            images/image-header-mobile.jpg  654w,
+            images/image-header-desktop.jpg 540w
+          "
+          sizes="(max-width: 375px) 375px, 540px"
+          src="images/image-header-mobile.jpg"
+          alt="smiling women in workspace"
+        />
+      </section>
+      <section class="info">
+        <p class="headline">
+          Get <span class="accent">insights</span> that help your business grow.
+        </p>
+
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <section class="stats">
+          <p>
+            <span
+              ><strong>10k+</strong> <br />
+              companies</span
+            >
+          </p>
+          <p>
+            <span
+              ><strong>314</strong><br />
+              templates</span
+            >
+          </p>
+          <p>
+            <span
+              ><strong>12M+</strong><br />
+              queries</span
+            >
+          </p>
+        </section>
+      </section>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jared Keown</a>.
+    </div>
+  </body>
+</html>
