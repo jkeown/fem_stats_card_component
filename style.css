@@ -24,6 +24,9 @@ body {
   justify-content: center;
   align-items: center; */
 }
+h2 {
+  display: none;
+}
 p {
   color: var(--slightly-transparent-white2);
   line-height: 1.5;
